@@ -1,4 +1,5 @@
 //ESERCIZIO MAIL
+console.group("🏁 ESERCIZIO MAIL");
 
 //creo una lista di email con gli invitati
 
@@ -43,6 +44,8 @@ if (entryPass === true) {
 
 }
 
+console.groupEnd();
+
 
 // ESERCIZIO DADI
 
@@ -53,6 +56,9 @@ if (entryPass === true) {
 // - Math.random() * 6 -> numero da 0 a 5.99...
 // - Math.floor(...)   -> arrotonda per difetto (0, 1, 2, 3, 4, 5)
 // - ... + 1           -> trasforma il range in 1-6
+
+console.group("🎲 ESERCIZIO DADI");
+
 
 let ThrowDiePeople = Math.floor(Math.random() * 6) + 1;
 console.log("🎲 il tuo lancio è: " + ThrowDiePeople);
@@ -78,3 +84,4 @@ if (ThrowDiePeople > ThrowDieComputer) {
 
 }
 
+console.groupEnd();
